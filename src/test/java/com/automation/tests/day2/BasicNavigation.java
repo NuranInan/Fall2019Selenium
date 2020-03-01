@@ -13,6 +13,7 @@ public class BasicNavigation {
         WebDriverManager.chromedriver().setup();
         ChromeDriver driver =new ChromeDriver();
         //In selenium, everything starts from WebDriver interface
+        //ChromeDriver extends RemoteWebDriver-->implements WebDriver
         driver.get("http://google.com");//to open a website
 
         Thread.sleep(3000);//for demo wait 3 seconds
